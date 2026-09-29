@@ -1,10 +1,8 @@
 :root {
-  /* Neue Dark-Mode Farbpalette für Lynette Yiadom-Boakye */
-  --textparagraph-1: #e4e0d7; /* Ein weiches Creme-Weiß für den Text */
-  --dividerdivider-1: rgba(228, 224, 215, 0.15); /* Sehr dezente Trennlinien */
-  --backgroundbackground-1: #151515; /* Ein tiefes, warmes Anthrazit als Hintergrund */
+  --textparagraph-1: #e4e0d7;
+  --dividerdivider-1: rgba(228, 224, 215, 0.15);
+  --backgroundbackground-1: #151515;
 
-  /* Typografie bleibt bestehen, wird aber eleganter gerendert */
   --heading-1-font-family: "Rethink Sans", Helvetica;
   --heading-1-font-weight: 400;
   --heading-1-font-size: 37px;
@@ -17,7 +15,7 @@
   --paragraph-1-font-size: 40px;
   --paragraph-1-letter-spacing: -1.6px;
   --paragraph-1-line-height: 120%;
-  --paragraph-1-font-style: italic; /* Kursiv für den poetischen Touch */
+  --paragraph-1-font-style: italic;
 
   --heading-2-font-family: "Rethink Sans", Helvetica;
   --heading-2-font-weight: 500;
