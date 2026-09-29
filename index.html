@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="desktop">
+            <div class="component">
+                <div class="links">
+                    <div class="content">
+                        <div class="nav-link">
+                            <div
+                                class="text-wrapper"
+                                data-target="#wer-war-lynette"
+                            >
+                                Wer ist Lynette Yiadom-Boakye?
+                            </div>
+                        </div>
+                        <div class="nav-link">
+                            <div class="div" data-target="#biografie">
+                                Biografie
+                            </div>
+                        </div>
+                        <div class="nav-link">
+                            <div class="text-wrapper-2" data-target="#werke">
+                                Werke
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="intro">
+                    <div class="copy">
+                        <div class="text-wrapper-3">Lynette Yiadom-Boakye</div>
+                        <p class="p">
+                            Rätselhafte Porträts jenseits von Raum und Zeit
+                        </p>
+                    </div>
+                    <div class="image">
+                        <img class="img" src="Media/1.png" />
+                    </div>
+                </div>
+                <div class="about" id="wer-war-lynette">
+                    <div class="image-2">
+                        <img class="img2" src="Media/2.jpg" />
+                    </div>
+                    <div class="copy-2">
+                        <div class="text-wrapper-4">Wer ist Lynette Yiadom-Boakye?</div>
+                        <p class="text-wrapper-5">
+                            Lynette Yiadom-Boakye (*1977) ist eine britische Malerin und Schriftstellerin mit ghanaischen Wurzeln. Sie ist bekannt für ihre eindringlichen Porträts fiktiver schwarzer Menschen. Anstatt mit realen Modellen zu arbeiten, erschafft sie ihre Figuren aus der Vorstellungskraft, Erinnerungen und Skizzenbüchern. Ihre Subjekte existieren in zeitlosen, nicht näher definierten Räumen und tragen oft geheimnisvolle Titel, die wie Zeilen aus ungeschriebenen Gedichten wirken.
+                        </p>
+                    </div>
+                </div>
+                <div class="frame" id="biografie">
+                    <div
+                        id="circle-timeline"
+                        style="
+                            position: relative;
+                            width: 100vh;
+                            height: 560px;
+                            margin: 0 auto;
+                            background: white;
+                            box-sizing: border-box;
+                            font-family:
+                                system-ui,
+                                -apple-system,
+                                BlinkMacSystemFont,
+                                &quot;Segoe UI&quot;,
+                                sans-serif;
+                            overflow: hidden;
+                        "
+                    >
+                        <div
+                            id="circle-window"
+                            style="
+                                position: absolute;
+                                left: 50%;
+                                top: 52%;
+                                transform: translate(-50%, -50%);
+                                width: 700px;
+                                height: 560px;
+                                overflow: hidden;
+                            "
+                        >
+                            <div
+                                id="circle-wheel"
+                                style="
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 100%;
+                                    width: 500px;
+                                    height: 500px;
+                                    transform: translate(-50%, -50%);
+                                "
+                            >
+                                <div
+                                    style="
+                                        position: absolute;
+                                        left: 50%;
+                                        top: 50%;
+                                        width: 500px;
+                                        height: 500px;
+                                        transform: translate(-50%, -50%);
+                                        border-radius: 50%;
+                                        border: 3px solid #ccc;
+                                    "
+                                ></div>
+
+                                <div
+                                    id="circle-items"
+                                    style="
+                                        position: absolute;
+                                        left: 50%;
+                                        top: 50%;
+                                        width: 0;
+                                        height: 0;
+                                        transform: translate(-50%, -50%);
+                                    "
+                                >
+                                    <!-- ITEM 0 -->
+                                    <div class="circle-item" data-index="0" data-title="1977 – Geburt" data-sub="London, UK" style="position: absolute; width: 200px; height: 200px; left: 0; top: 0; transform-origin: 50% 50%; opacity: 0; transition: transform 0.5s ease, opacity 0.3s ease;">
+                                        <div class="circle-node" style="width: 200px; height: 200px; border-radius: 50%; border: 3px solid #222; overflow: hidden; background: #fff; box-shadow: 0 3px 6px rgba(0,0,0,0.25); cursor: pointer; position: relative; transition: all 0.25s ease;" onmouseover="this.style.width='280px';this.style.height='210px';this.style.borderRadius='14px';this.style.transform='translate(-40px,-10px)';this.querySelector('img').style.opacity='0';this.querySelector('.circle-card').style.opacity='1';this.querySelector('.circle-card').style.pointerEvents='auto';" onmouseout="this.style.width='200px';this.style.height='200px';this.style.borderRadius='50%';this.style.transform='translate(0,0)';this.querySelector('img').style.opacity='1';this.querySelector('.circle-card').style.opacity='0';this.querySelector('.circle-card').style.pointerEvents='none';">
+                                            <img src="Media/Bio_1.png" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity 0.2s ease;" />
+                                            <div class="circle-card" style="position: absolute; inset: 0; padding: 14px 16px; box-sizing: border-box; background: #222; color: #f9f9f9; opacity: 0; pointer-events: none; transition: opacity 0.2s ease; font-size: 13px; line-height: 1.5;">
+                                                1977 – Geburt<br />
+                                                Lynette Yiadom-Boakye wird in London geboren. Ihre Eltern stammen aus Ghana und arbeiteten als Krankenschwester und Ingenieur.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- ITEM 1 -->
+                                    <div class="circle-item" data-index="1" data-title="2003 – Studium & Abschluss" data-sub="Royal Academy Schools, London" style="position: absolute; width: 200px; height: 200px; left: 0; top: 0; transform-origin: 50% 50%; opacity: 0; transition: transform 0.5s ease, opacity 0.3s ease;">
+                                        <div class="circle-node" style="width: 200px; height: 200px; border-radius: 50%; border: 3px solid #222; overflow: hidden; background: #fff; box-shadow: 0 3px 6px rgba(0,0,0,0.25); cursor: pointer; position: relative; transition: all 0.25s ease;" onmouseover="this.style.width='280px';this.style.height='210px';this.style.borderRadius='14px';this.style.transform='translate(-40px,-10px)';this.querySelector('img').style.opacity='0';this.querySelector('.circle-card').style.opacity='1';this.querySelector('.circle-card').style.pointerEvents='auto';" onmouseout="this.style.width='200px';this.style.height='200px';this.style.borderRadius='50%';this.style.transform='translate(0,0)';this.querySelector('img').style.opacity='1';this.querySelector('.circle-card').style.opacity='0';this.querySelector('.circle-card').style.pointerEvents='none';">
+                                            <img src="Media/Bio_2.png" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity 0.2s ease;" />
+                                            <div class="circle-card" style="position: absolute; inset: 0; padding: 14px 16px; box-sizing: border-box; background: #222; color: #f9f9f9; opacity: 0; pointer-events: none; transition: opacity 0.2s ease; font-size: 13px; line-height: 1.5;">
+                                                2003 – Abschluss<br />
+                                                Nach ihrem Foundation Course am Central Saint Martins College schließt sie ihr Studium an den prestigeträchtigen Royal Academy Schools ab.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- ITEM 2 -->
+                                    <div class="circle-item" data-index="2" data-title="2013 – Turner Prize Nominierung" data-sub="London, UK" style="position: absolute; width: 200px; height: 200px; left: 0; top: 0; transform-origin: 50% 50%; opacity: 0; transition: transform 0.5s ease, opacity 0.3s ease;">
+                                        <div class="circle-node" style="width: 200px; height: 200px; border-radius: 50%; border: 3px solid #222; overflow: hidden; background: #fff; box-shadow: 0 3px 6px rgba(0,0,0,0.25); cursor: pointer; position: relative; transition: all 0.25s ease;" onmouseover="this.style.width='280px';this.style.height='210px';this.style.borderRadius='14px';this.style.transform='translate(-40px,-10px)';this.querySelector('img').style.opacity='0';this.querySelector('.circle-card').style.opacity='1';this.querySelector('.circle-card').style.pointerEvents='auto';" onmouseout="this.style.width='200px';this.style.height='200px';this.style.borderRadius='50%';this.style.transform='translate(0,0)';this.querySelector('img').style.opacity='1';this.querySelector('.circle-card').style.opacity='0';this.querySelector('.circle-card').style.pointerEvents='none';">
+                                            <img src="Media/Bio_3.png" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity 0.2s ease;" />
+                                            <div class="circle-card" style="position: absolute; inset: 0; padding: 14px 16px; box-sizing: border-box; background: #222; color: #f9f9f9; opacity: 0; pointer-events: none; transition: opacity 0.2s ease; font-size: 13px; line-height: 1.5;">
+                                                2013 – Turner Prize<br />
+                                                Für ihre Einzelausstellung "Extracts and Verses" in der Chisenhale Gallery wird sie für den renommierten britischen Turner Prize nominiert.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- ITEM 3 -->
+                                    <div class="circle-item" data-index="3" data-title="2018 – Carnegie Prize" data-sub="Pittsburgh, USA" style="position: absolute; width: 200px; height: 200px; left: 0; top: 0; transform-origin: 50% 50%; opacity: 0; transition: transform 0.5s ease, opacity 0.3s ease;">
+                                        <div class="circle-node" style="width: 200px; height: 200px; border-radius: 50%; border: 3px solid #222; overflow: hidden; background: #fff; box-shadow: 0 3px 6px rgba(0,0,0,0.25); cursor: pointer; position: relative; transition: all 0.25s ease;" onmouseover="this.style.width='280px';this.style.height='210px';this.style.borderRadius='14px';this.style.transform='translate(-40px,-10px)';this.querySelector('img').style.opacity='0';this.querySelector('.circle-card').style.opacity='1';this.querySelector('.circle-card').style.pointerEvents='auto';" onmouseout="this.style.width='200px';this.style.height='200px';this.style.borderRadius='50%';this.style.transform='translate(0,0)';this.querySelector('img').style.opacity='1';this.querySelector('.circle-card').style.opacity='0';this.querySelector('.circle-card').style.pointerEvents='none';">
+                                            <img src="Media/Bio_4.png" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity 0.2s ease;" />
+                                            <div class="circle-card" style="position: absolute; inset: 0; padding: 14px 16px; box-sizing: border-box; background: #222; color: #f9f9f9; opacity: 0; pointer-events: none; transition: opacity 0.2s ease; font-size: 13px; line-height: 1.5;">
+                                                2018 – Carnegie Prize<br />
+                                                Sie gewinnt den Carnegie Prize des Carnegie Museum of Art in Pittsburgh, was ihren Status in der internationalen Kunstszene festigt.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- ITEM 4 -->
+                                    <div class="circle-item" data-index="4" data-title="2020/22 – Retrospektive" data-sub="Tate Britain, London" style="position: absolute; width: 200px; height: 200px; left: 0; top: 0; transform-origin: 50% 50%; opacity: 0; transition: transform 0.5s ease, opacity 0.3s ease;">
+                                        <div class="circle-node" style="width: 200px; height: 200px; border-radius: 50%; border: 3px solid #222; overflow: hidden; background: #fff; box-shadow: 0 3px 6px rgba(0,0,0,0.25); cursor: pointer; position: relative; transition: all 0.25s ease;" onmouseover="this.style.width='280px';this.style.height='210px';this.style.borderRadius='14px';this.style.transform='translate(-40px,-10px)';this.querySelector('img').style.opacity='0';this.querySelector('.circle-card').style.opacity='1';this.querySelector('.circle-card').style.pointerEvents='auto';" onmouseout="this.style.width='200px';this.style.height='200px';this.style.borderRadius='50%';this.style.transform='translate(0,0)';this.querySelector('img').style.opacity='1';this.querySelector('.circle-card').style.opacity='0';this.querySelector('.circle-card').style.pointerEvents='none';">
+                                            <img src="Media/Bio_5.png" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity 0.2s ease;" />
+                                            <div class="circle-card" style="position: absolute; inset: 0; padding: 14px 16px; box-sizing: border-box; background: #222; color: #f9f9f9; opacity: 0; pointer-events: none; transition: opacity 0.2s ease; font-size: 13px; line-height: 1.5;">
+                                                2020 – Tate Britain<br />
+                                                Eine großangelegte Einzelausstellung "Fly In League With The Night" in der Tate Britain würdigt ihr Schaffen (aufgrund von Covid 2022 wiederholt).
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="circle-text" style="position: absolute; left: 50%; top: 83%; transform: translateX(-50%); text-align: center; width: 80%;">
+                            <div id="circle-title" style="font-size: 18px; font-weight: 600; margin-bottom: 4px; color: #111;">1977 – Geburt</div>
+                            <div id="circle-sub" style="font-size: 13px; color: #444;">London, UK</div>
+                        </div>
+
+                        <button id="circle-prev" style="position: absolute; left: 20px; top: 52%; transform: translateY(-50%); width: 38px; height: 38px; border-radius: 50%; border: none; background: rgba(0, 0, 0, 0.65); color: #fff; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10;">&#10094;</button>
+                        <button id="circle-next" style="position: absolute; right: 20px; top: 52%; transform: translateY(-50%); width: 38px; height: 38px; border-radius: 50%; border: none; background: rgba(0, 0, 0, 0.65); color: #fff; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10;">&#10095;</button>
+
+                        <script>
+                            (function () {
+                                var items = document.querySelectorAll("#circle-timeline .circle-item");
+                                var btnPrev = document.getElementById("circle-prev");
+                                var btnNext = document.getElementById("circle-next");
+                                var titleEl = document.getElementById("circle-title");
+                                var subEl = document.getElementById("circle-sub");
+
+                                if (!items.length || !btnPrev || !btnNext || !titleEl || !subEl) return;
+
+                                var current = 0;
+                                var maxIndex = items.length - 1;
+                                var radius = 250;
+                                var baseAngle = -90;
+
+                                function layout() {
+                                    var step = 360 / items.length;
+                                    for (var i = 0; i < items.length; i++) {
+                                        var angleDeg = baseAngle + (i - current) * step;
+                                        var angle = angleDeg * (Math.PI / 180);
+                                        var x = Math.cos(angle) * radius;
+                                        var y = Math.sin(angle) * radius;
+                                        items[i].style.transform = "translate(" + (x - 100) + "px," + (y - 100) + "px)";
+                                        items[i].style.opacity = i === current ? "1" : "0";
+                                    }
+                                    var active = items[current];
+                                    titleEl.textContent = active.getAttribute("data-title");
+                                    subEl.textContent = active.getAttribute("data-sub");
+                                    btnPrev.style.opacity = current === 0 ? "0.3" : "1";
+                                    btnPrev.style.pointerEvents = current === 0 ? "none" : "auto";
+                                    btnNext.style.opacity = current === maxIndex ? "0.3" : "1";
+                                    btnNext.style.pointerEvents = current === maxIndex ? "none" : "auto";
+                                }
+
+                                btnPrev.onclick = function () {
+                                    if (current > 0) { current--; layout(); }
+                                };
+                                btnNext.onclick = function () {
+                                    if (current < maxIndex) { current++; layout(); }
+                                };
+
+                                layout();
+                            })();
+                        </script>
+                    </div>
+                    <div class="text-wrapper-6">Biografie</div>
+                </div>
+
+                <div class="werke" id="werke">
+                    <!-- Werk 1 -->
+                    <div class="on-view-module">
+                        <div class="sketchfab-embed-wrapper" data-tooltip="Öl auf Leinwand, 2012">
+                            <!-- Tipp: Falls du aus DaVinci ein Video exportierst, ersetze das <img> durch: -->
+                            <!-- <video src="Media/Work_1.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;"></video> -->
+                            <img src="Media/Work_1.jpg" alt="A Passion Like No Other" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="description-hover">
+                            <p class="eclipsed-horizons">A Passion Like No Other – 2012</p>
+                            <div class="lena-koval">📍Collection Pinault, Paris</div>
+                        </div>
+                        <p class="text-wrapper-7">
+                            Die dunklen, erdigen Töne und die lockeren, aber gezielten Pinselstriche sind charakteristisch für sie. Die Figur scheint in Gedanken versunken, der Betrachter bleibt ohne Kontext und muss die Geschichte hinter dem Bild selbst erfinden.
+                        </p>
+                    </div>
+
+                    <!-- Werk 2 -->
+                    <div class="on-view-module-2">
+                        <div class="description-hover-2">
+                            <div class="eclipsed-horizons">Complication – 2013</div>
+                            <div class="lena-koval">📍Privatsammlung</div>
+                        </div>
+                        <div class="sketchfab-embed-wrapper" data-tooltip="Öl auf Leinwand, 2013">
+                            <img src="Media/Work_2.jpg" alt="Complication" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <p class="text-wrapper-8">
+                            Yiadom-Boakyes Porträts arbeiten oft mit der Inszenierung von Männlichkeit und Ruhe. Der dunkle Hintergrund verschmilzt fast mit der Kleidung der Figur, was eine fast geisterhafte, isolierte Atmosphäre schafft.
+                        </p>
+                    </div>
+
+                    <!-- Werk 3 -->
+                    <div class="on-view-module-3">
+                        <div class="sketchfab-embed-wrapper" data-tooltip="Öl auf Leinwand, 2016">
+                            <img src="Media/Work_3.jpg" alt="Tie the Temptress to the Trojan" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="description-hover">
+                            <p class="eclipsed-horizons">Tie the Temptress to the Trojan – 2016</p>
+                            <div class="lena-koval">📍Los Angeles County Museum of Art</div>
+                        </div>
+                        <p class="text-wrapper-9">
+                            Ihre poetischen Bildtitel lassen viel Raum für Interpretation. Sie illustrieren nicht das Gemalte, sondern dienen als zusätzliches "Material", ähnlich einer weiteren Farbe auf der Leinwand.
+                        </p>
+                    </div>
+
+                    <!-- Werk 4 -->
+                    <div class="on-view-module-4">
+                        <div class="sketchfab-embed-wrapper" data-tooltip="Öl auf Leinwand, 2018">
+                            <img src="Media/Work_4.jpg" alt="No Need of Speech" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="description-hover-3">
+                            <div class="eclipsed-horizons">No Need of Speech – 2018</div>
+                            <p class="lena-koval">📍Carnegie Museum of Art</p>
+                        </div>
+                        <p class="text-wrapper-10">
+                            Yiadom-Boakye stellt schwarze Körper fernab von historischen Traumata oder politisierter Dokumentation dar. Ihre Figuren dürfen einfach "sein" – in Muße, beim Nachdenken oder im stillen Dialog.
+                        </p>
+                    </div>
+
+                    <div class="title">
+                        <div class="text-wrapper-11">Werke</div>
+                    </div>
+                </div>
+
+                <p class="weitere-werke-lassen">
+                    <span class="span">Weitere Werke und Ausstellungen finden sich u.A. auf der Website der<br /><br /></span>
+                    <a href="https://www.tate.org.uk/art/artists/lynette-yiadom-boakye-18116" target="_blank" rel="noopener noreferrer">
+                        <span class="text-wrapper-12">Tate Gallery<br /></span>
+                    </a>
+                    <span class="span"><br />sowie bei der Corvi-Mora Galerie in London.</span>
+                </p>
+            </div>
+        </div>
+
+        <script>
+            document.querySelectorAll(".nav-link div[data-target]").forEach(function (el) {
+                el.style.cursor = "pointer";
+                el.addEventListener("click", function () {
+                    var selector = this.getAttribute("data-target");
+                    var target = document.querySelector(selector);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: "smooth",
+                            block: "start",
+                            inline: "nearest",
+                        });
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

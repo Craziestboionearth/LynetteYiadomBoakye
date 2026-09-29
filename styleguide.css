@@ -1,0 +1,49 @@
+:root {
+  /* Neue Dark-Mode Farbpalette für Lynette Yiadom-Boakye */
+  --textparagraph-1: #e4e0d7; /* Ein weiches Creme-Weiß für den Text */
+  --dividerdivider-1: rgba(228, 224, 215, 0.15); /* Sehr dezente Trennlinien */
+  --backgroundbackground-1: #151515; /* Ein tiefes, warmes Anthrazit als Hintergrund */
+
+  /* Typografie bleibt bestehen, wird aber eleganter gerendert */
+  --heading-1-font-family: "Rethink Sans", Helvetica;
+  --heading-1-font-weight: 400;
+  --heading-1-font-size: 37px;
+  --heading-1-letter-spacing: -1.48px;
+  --heading-1-line-height: 120%;
+  --heading-1-font-style: normal;
+
+  --paragraph-1-font-family: "Spectral", Helvetica;
+  --paragraph-1-font-weight: 400;
+  --paragraph-1-font-size: 40px;
+  --paragraph-1-letter-spacing: -1.6px;
+  --paragraph-1-line-height: 120%;
+  --paragraph-1-font-style: italic; /* Kursiv für den poetischen Touch */
+
+  --heading-2-font-family: "Rethink Sans", Helvetica;
+  --heading-2-font-weight: 500;
+  --heading-2-font-size: 30px;
+  --heading-2-letter-spacing: -1.2px;
+  --heading-2-line-height: 100%;
+  --heading-2-font-style: normal;
+
+  --paragraph-2-font-family: "Rethink Sans", Helvetica;
+  --paragraph-2-font-weight: 400;
+  --paragraph-2-font-size: 15px;
+  --paragraph-2-letter-spacing: -0.45px;
+  --paragraph-2-line-height: 140%;
+  --paragraph-2-font-style: normal;
+
+  --heading-3-font-family: "Spectral", Helvetica;
+  --heading-3-font-weight: 500;
+  --heading-3-font-size: 18px;
+  --heading-3-letter-spacing: -0.9px;
+  --heading-3-line-height: 100%;
+  --heading-3-font-style: italic;
+
+  --label-1-font-family: "Rethink Sans", Helvetica;
+  --label-1-font-weight: 400;
+  --label-1-font-size: 17px;
+  --label-1-letter-spacing: -0.765px;
+  --label-1-line-height: 100%;
+  --label-1-font-style: normal;
+}
