@@ -227,13 +227,18 @@
     height: 1240.47px;
 }
 
+/* KORREKTUR: on-view-module wurde auf 540px Höhe gesetzt für einheitliches Verhalten */
 .desktop .on-view-module {
     position: absolute;
     top: 1713px;
     left: 780px;
     width: 600px;
-    height: 455px;
+    height: 540px;
 }
+
+.desktop .on-view-module-2 { top: 1182px; left: 0px; position: absolute; width: 472px; height: 540px; }
+.desktop .on-view-module-3 { top: 646px; left: 780px; position: absolute; width: 700px; height: 540px; }
+.desktop .on-view-module-4 { top: 150px; left: 0px; position: absolute; width: 472px; height: 540px; }
 
 .desktop .description-hover,
 .desktop .description-hover-2,
@@ -246,23 +251,23 @@
     left: 0;
 }
 
+/* KORREKTUR: Alle top-Werte für description-hover auf 488px vereinheitlicht */
 .desktop .description-hover {
     width: 224px;
     height: auto;
-    top: 412px;
+    top: 488px;
 }
 
 .desktop .description-hover-2 {
     width: 472px;
     height: 39px;
-    top: 412px;
+    top: 488px;
 }
 
 .desktop .description-hover-3 {
     width: 100%;
     height: 39px;
-    top: 412px;
-    bottom: 22px;
+    top: 488px;
 }
 
 .desktop .text-wrapper-7,
@@ -316,9 +321,6 @@
     font-style: var(--label-1-font-style);
 }
 
-.desktop .on-view-module-2 { top: 1182px; left: 0px; position: absolute; width: 472px; height: 455px; }
-.desktop .on-view-module-3 { top: 646px; left: 780px; position: absolute; width: 600px; height: 455px; }
-.desktop .on-view-module-4 { top: 150px; left: 0px; position: absolute; width: 472px; height: 455px; }
 
 .desktop .title {
     display: flex;
@@ -386,8 +388,8 @@
 
 .sketchfab-embed-wrapper {
     position: relative;
-    width: 600px;
-    height: 380px;
+    /* KORREKTUR: Feste width und height entfernt, da diese jetzt im HTML-Style definiert werden. max-width ergänzt. */
+    max-width: 100%;
 }
 
 .sketchfab-embed-wrapper iframe {
