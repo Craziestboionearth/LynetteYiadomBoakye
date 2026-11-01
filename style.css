@@ -4,7 +4,7 @@
     align-items: flex-start;
     justify-content: space-between;
     position: relative;
-    background-color: var(--backgroundbackground-1) !important;
+    background-color: transparent !important;
     overflow-x: hidden;
     width: 100%;
     min-width: 100vh !important;
@@ -19,7 +19,7 @@
     gap: 120px;
     padding: 16px;
     position: relative;
-    background-color: var(--backgroundbackground-1);
+    background-color: transparent;
 }
 
 .desktop .links {
@@ -379,6 +379,11 @@
     color: var(--textparagraph-1);
 }
 
+.desktop .text-wrapper-13 {
+    text-decoration: underline;
+    color: var(--textparagraph-1);
+}
+
 .sketchfab-embed-wrapper {
     position: relative;
     width: 600px;
@@ -450,4 +455,18 @@
 #circle-sub {
     color: #a09e98 !important;
     font-family: var(--label-1-font-family) !important;
+}
+
+.image .img,
+.image-2 .img2,
+.sketchfab-embed-wrapper img,
+.sketchfab-embed-wrapper video {
+    -webkit-mask-image:
+        linear-gradient(to right, transparent, black 15px, black calc(100% - 15px), transparent),
+        linear-gradient(to bottom, transparent, black 15px, black calc(100% - 15px), transparent);
+    -webkit-mask-composite: source-in;
+    mask-image:
+        linear-gradient(to right, transparent, black 15px, black calc(100% - 15px), transparent),
+        linear-gradient(to bottom, transparent, black 15px, black calc(100% - 15px), transparent);
+    mask-composite: intersect;
 }
